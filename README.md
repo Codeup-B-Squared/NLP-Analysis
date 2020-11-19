@@ -32,10 +32,20 @@ Some ideas to keep in mind while exploring the data:
 
 ## Data Dictionary
 
+| DF Name | Feature Name | Description                                             |
+|---------|--------------|---------------------------------------------------------|
+| urls    | language     | coding language of repository by GitHub trending filter |
+|         | link         | generated url by web scraping from GitHub trending page |
+| df      | content      | raw text data from repository Readme file               |
+|         | watchers     | count of users watching the repository                  |
+|         | stars        | count of users that have starred the repository         |
+|         | forks        | count of users that have forked the repository          |
+|         | doc_length   | word length of content                                  |
+
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
 
 # Deliverables
-- Analysis.ipynb
+- Data_Analysis.ipynb
   - A well-documented jupyter notebook containing my analysis
 - Presentation
   - Summary of findings including a well-labeled visual
@@ -55,6 +65,8 @@ Some ideas to keep in mind while exploring the data:
 ## Tools Used
 ## Steps
 
-# Author
+# Authors
+[Bethany Thompson](https://github.com/ThompsonBethany01)
+[Bibek Mainali](https://github.com/MainaliB)
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
