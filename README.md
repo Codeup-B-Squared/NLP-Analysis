@@ -32,15 +32,22 @@ Some ideas to keep in mind while exploring the data:
 
 ## Data Dictionary
 
-| DF Name | Feature Name | Description                                             |
-|---------|--------------|---------------------------------------------------------|
-| urls    | language     | coding language of repository by GitHub trending filter |
-|         | link         | generated url by web scraping from GitHub trending page |
-| df      | content      | raw text data from repository Readme file               |
-|         | watchers     | count of users watching the repository                  |
-|         | stars        | count of users that have starred the repository         |
-|         | forks        | count of users that have forked the repository          |
-|         | doc_length   | word length of content                                  |
+| Feature Name | Description                                             |
+|--------------|---------------------------------------------------------|
+| content      | raw text data from repository Readme file               |
+| watchers     | count of users watching the repository                  |
+| stars        | count of users that have starred the repository         |
+| forks        | count of users that have forked the repository          |
+| clean        |                                                         |
+| tokenized    |                                                         |
+| stemmed      |                                                         |
+| lemmatized   |                                                         |
+| filtered     |                                                         |
+| word_list    | list of words used in content, not unique               |
+| char_length  | count of characters used in content                     |
+| word_length  | count of words in word_list                             |
+| language     | coding language of repository by GitHub trending filter |
+| link         | generated url by web scraping from GitHub trending page |
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
 
@@ -62,11 +69,13 @@ Some ideas to keep in mind while exploring the data:
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
 
 # How to Reproduce
-## Tools Used
-## Steps
+- [X] Read this Readme.md file
+- [ ] Download <kbd>Data_Anlysis.ipynb</kbd>, <kbd>Acquire.py</kbd>, and <kbd>Prepare.py</kbd> in your working directory.
+- [ ] Run <kbd>Data_Anlysis.ipynb</kbd>
+- [ ] Continue your own work in the notebook, or start from scratch with a new notebook in the same directory (be sure to import the modules)
 
 # Authors
-[Bethany Thompson](https://github.com/ThompsonBethany01)
+[Bethany Thompson](https://github.com/ThompsonBethany01)  
 [Bibek Mainali](https://github.com/MainaliB)
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
