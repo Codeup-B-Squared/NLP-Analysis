@@ -21,6 +21,7 @@ def clean_content(content_list):
         .decode('utf-8', 'ignore')
         article = article.replace('\n', '')
         article = article.lower()
+        article = re.sub(r'[^a-z0-9\s]', '', article)
         clean_content.append(article)
     return clean_content
 
