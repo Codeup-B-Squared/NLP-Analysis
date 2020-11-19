@@ -87,3 +87,26 @@ def prepare_df(df):
     df['filtered'] = remove_stopwords(df.lemmatized)
 
     return df
+
+################################# Split to Train & Validate ##################################
+
+def train_validate(df):
+    '''
+    Function to split df into 68% train and 32% validate. Returns the two split
+    dataframes. Random seed splits into 18 observations from java and javscript
+    and 16 observations from python and swift.
+    '''
+    # Import to use split function, can only split two at a time
+    from sklearn.model_selection import train_test_split
+
+    # split into train + validate together and test by itself
+    # Set random_state so we can reproduce the same 'random' data
+    train, validate = train_test_split(df, test_size = .32, random_state = 123)
+
+    # Will print the shape of eachvariable as a percentage of the total data set
+    # Varialbe to hold the sum of all rows (total observations in the data)
+    total = df.count()[0]
+    print("\ntrain percent: ", round(((train.shape[0])/total),2) * 100, 
+            ", validate percent: ", round(((validate.shape[0])/total),2) * 100, )
+
+    return train, validate
