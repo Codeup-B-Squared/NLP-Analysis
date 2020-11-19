@@ -86,6 +86,10 @@ def prepare_df(df):
     df['lemmatized'] = lemmatizing(df.tokenized)
     df['filtered'] = remove_stopwords(df.lemmatized)
 
+    df['word_list'] = df.lemmatized.str.split()
+    df['char_length'] = df.lemmatized.str.len()
+    df['word_length'] = [len(wordlist) for wordlist in df.word_list]
+
     return df
 
 ################################# Split to Train & Validate ##################################
