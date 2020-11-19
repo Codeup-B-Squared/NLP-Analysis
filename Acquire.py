@@ -63,11 +63,13 @@ def get_content_df(links):
     forks = []
     
     # looping through each url generated from function above
-    for url in links:
+    for elem in links:
         
         # empty list to hold individual repo ['watchers','stars','forks']
         counts = []
         
+        url = elem
+
         # scraping for readme content
         response = get(url)
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -92,7 +94,7 @@ def get_content_df(links):
     # creating content into a df
     df = pd.DataFrame(content)
     df['watchers'] = watchers
-    df['starts'] = stars
+    df['stars'] = stars
     df['forks'] = forks
     
     return df
