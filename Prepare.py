@@ -83,7 +83,7 @@ def prepare_df(df):
     df['clean'] = clean_content(df.content)
     df['tokenized'] = tokenizing(df.clean)
     df['stemmed'] = stemming(df.tokenized)
-    df1['lemmatized'] = lemmatizing(df.tokenized)
-    df1['filtered'] = remove_stopwords(df.lemmatized)
+    df['lemmatized'] = lemmatizing(df.tokenized)
+    df['filtered'] = remove_stopwords(df.lemmatized)
 
     return df
