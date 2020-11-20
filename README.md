@@ -1,4 +1,4 @@
-![Project-Header](https://i.pinimg.com/originals/e4/6c/25/e46c2529c95068026efd3f537d6b06fc.png)
+![Project-Header](https://i.pinimg.com/originals/76/f3/33/76f333fd9fd2ad9bd020b49d4bb71f31.gif)
 
 # Table of Contents
 1. [About the Project](https://github.com/ThompsonBethany01/Readme_Language_Analysis#About-the-Project)  
@@ -29,6 +29,8 @@ Some ideas to keep in mind while exploring the data:
 - Do different programming languages use a different number of unique words?
   
 ## Outline
+
+![Project-Outline](https://i.pinimg.com/originals/6c/41/af/6c41af04787b169bd7a5ee79769c5e27.png)
 
 ## Data Dictionary
 
