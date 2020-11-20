@@ -61,8 +61,20 @@ Some ideas to keep in mind while exploring the data:
 
 # Project Steps
 ## Acquire
+- Acquired data from the top trending repositories in Github for 4 different languages: Python, Java, JavaScript, Swift
+- First, we extracted 100 repositories(25 for each language) that were trending on a monthly basis, repeated the same for weekly basis, and then daily basis
+- Automated the webscrapping by creating a function that extracts the content of the read me from each of the repositories 
 ## Prepare
+- Cleaned the data by removing white spaces, characters, and lowercasing all of the words
+- Tokenized the content
+- Stemmed the content, lemmatized the content, and then filtered by removing the stop words
+- Splitted the data into train and test data set
+
 ## Explore
+- Explored the word counts
+- Plotted the  most frequent words in repos for each language
+- Created a word cloud of the words for each language
+- Created bigrams and plotted the bigrams(barplot, wordcloud)
 ## Model
 ## Conclusions
 
