@@ -79,7 +79,13 @@ Some ideas to keep in mind while exploring the data:
 - Created bigrams and plotted the bigrams(barplot, wordcloud)
 ## Model
 - Created a bag of words and used it to train the logistic model 
-- Created a tf-idf sparse ma
+- Created a tf-idf sparse ma  
+
+| Model Name                         | Train  | Validate | Test   |
+|------------------------------------|--------|----------|--------|
+| TF-iDF + LogisticsRegression       | 99.47% | 74.39%   | 77.42% |
+| Bag of Words + LogisticsRegression | 100%   | 69.51%   | 74.19% |
+
 ## Conclusions
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
