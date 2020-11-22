@@ -78,6 +78,8 @@ Some ideas to keep in mind while exploring the data:
 - Created a word cloud of the words for each language
 - Created bigrams and plotted the bigrams(barplot, wordcloud)
 ## Model
+- Created a bag of words and used it to train the logistic model 
+- Created a tf-idf sparse ma
 ## Conclusions
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
