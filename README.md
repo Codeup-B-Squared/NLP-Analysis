@@ -40,11 +40,11 @@ Some ideas to keep in mind while exploring the data:
 | watchers     | count of users watching the repository                  |
 | stars        | count of users that have starred the repository         |
 | forks        | count of users that have forked the repository          |
-| clean        |                                                         |
-| tokenized    |                                                         |
-| stemmed      |                                                         |
-| lemmatized   |                                                         |
-| filtered     |                                                         |
+| clean        | content that has been cleaned.                          |
+| tokenized    | clean content that have been tokenized                  |
+| stemmed      | tokenized content that has been stemmed                 |
+| lemmatized   | tokenized content that has been lemmatized              |
+| filtered     | lemmatized content that has been filtered               |
 | word_list    | list of words used in content, not unique               |
 | char_length  | count of characters used in content                     |
 | word_length  | count of words in word_list                             |
