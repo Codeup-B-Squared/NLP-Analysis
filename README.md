@@ -12,11 +12,9 @@
 # About the Project
 
 ## Background
-If you try to google which programming language to learn first, you'll come up with more answers than you'll know what to do with. To quote [Full Stack Academy](https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn),  
-> The toughest part of learning programming is deciding where to begin. There are hundreds of programming languages in widespread use, each with its own 
-> complexities and idiosyncrasies.   
-
-Perhaps this project could lead to the simplest answer - whichever language is most popular.
+For this project, we are acquiring the data ourselves from trending GitHub repositories. We need to use Natural language processing (NLP) to convert the data for our model to use. To quote [IBM](https://www.ibm.com/cloud/learn/natural-language-processing),  
+> "NLP refers to the branch of computer science — and more specifically, the branch of artificial intelligence or AI — concerned 
+> with giving computers the ability to understand text and spoken words in much the same way human beings can."
 
 ## Goals
 The purpose of this project is to predict the programming language used in a repository based on the text within the Readme file alone. Data will be scraped from Github repositories of choice, such as the repositories with the most stars or highest trending.
@@ -56,8 +54,10 @@ Some ideas to keep in mind while exploring the data:
 # Deliverables
 - Data_Analysis.ipynb
   - A well-documented jupyter notebook containing my analysis
+  - [Click here](https://github.com/Codeup-B-Squared/NLP-Analysis/blob/main/Data_Analysis.ipynb) to be directed to the file.
 - Presentation
   - Summary of findings including a well-labeled visual
+  - [Click here](https://www.canva.com/design/DAEN6nqX74E/f8zXdDZc8EIHpqd-nnFYxg/view?utm_content=DAEN6nqX74E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) to be directed to the presentation.
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
 
@@ -81,10 +81,12 @@ Some ideas to keep in mind while exploring the data:
 - Created a bag of words and used it to train the logistic model 
 - Created a tf-idf sparse ma  
 
+Accuracy of Models Created
+
 | Model Name                         | Train  | Validate | Test   |
 |------------------------------------|--------|----------|--------|
-| TF-iDF + LogisticsRegression       | 99.47% | 74.39%   | 77.42% |
-| Bag of Words + LogisticsRegression | 100%   | 69.51%   | 74.19% |
+| TF-iDF + LogisticsRegression       | 99.47 %| 74.39 %  | 77.42 %|
+| Bag of Words + LogisticsRegression | 100 %  | 69.51 %  | 74.19 %|
 
 ## Conclusions
 
@@ -93,7 +95,7 @@ Some ideas to keep in mind while exploring the data:
 # How to Reproduce
 - [X] Read this Readme.md file
 - [ ] Download <kbd>Data_Anlysis.ipynb</kbd>, <kbd>Acquire.py</kbd>, and <kbd>Prepare.py</kbd> in your working directory.
-- [ ] Run <kbd>Data_Anlysis.ipynb</kbd>
+- [ ] Run <kbd>Data_Analysis.ipynb</kbd>
 - [ ] Continue your own work in the notebook, or start from scratch with a new notebook in the same directory (be sure to import the modules)
 
 # Authors
