@@ -102,6 +102,7 @@ Accuracy of Models Created
 # How to Reproduce
 - [X] Read this Readme.md file
 - [ ] Download <kbd>Data_Anlysis.ipynb</kbd>, <kbd>Acquire.py</kbd>, and <kbd>Prepare.py</kbd> in your working directory.
+    - You can acquire your own data using the Acquire module functions, or download our <kbd>Final_df.csv</kbd>.
 - [ ] Run <kbd>Data_Analysis.ipynb</kbd>
 - [ ] Continue your own work in the notebook, or start from scratch with a new notebook in the same directory (be sure to import the modules)
 
