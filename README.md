@@ -90,7 +90,7 @@ Accuracy of Models Created
 
 | Model Name                         | Train  | Validate | Test   |
 |------------------------------------|--------|----------|--------|
-| TF-iDF + LogisticsRegression       | 100%.  | 80.49 %  | 80.65 %|
+| TF-iDF + LogisticsRegression       | 100 %  | 80.49 %  | 80.65 %|
 | Bag of Words + LogisticsRegression | 100 %  | 69.51 %  | 74.19 %|
 
 ## Conclusions
