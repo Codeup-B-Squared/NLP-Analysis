@@ -57,7 +57,11 @@ Some ideas to keep in mind while exploring the data:
   - [Click here](https://github.com/Codeup-B-Squared/NLP-Analysis/blob/main/Data_Analysis.ipynb) to be directed to the file.
 - Presentation
   - Summary of findings including a well-labeled visual
-  - [Click here](https://www.canva.com/design/DAEN6nqX74E/f8zXdDZc8EIHpqd-nnFYxg/view?utm_content=DAEN6nqX74E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) to be directed to the presentation.
+  - [Click here](https://www.canva.com/design/DAEN6nqX74E/f8zXdDZc8EIHpqd-nnFYxg/view?utm_content=DAEN6nqX74E&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) to be directed to the presentation.  
+- Function
+  - A function that will take in the text of a README file, and try to predict the programming language.
+  - Run <kbd>Predict.py</kbd> in your working directory (needs the csv of aquired data).
+  -  [Click here](https://github.com/Codeup-B-Squared/NLP-Analysis/blob/main/Predict.py) to be directed to the file.
 
 [Back to Top](https://github.com/ThompsonBethany01/Readme_Language_Analysis#Table-of-Contents)
 
